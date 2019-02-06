@@ -5,6 +5,7 @@ import TopBarControls from "../containers/TopBarControls";
 import PlacesListControls from "../containers/PlacesListControls";
 import MapControls from "../containers/MapControls";
 import styled from "styled-components";
+// import Footer from "./Footer";
 
 const Container = styled.div`
   width: 100vw;
@@ -27,9 +28,22 @@ const RightSide = styled.div`
   height: 100%;
 `;
 
+// const Header = styled.div
+//   position: top
+//   width: 100%
+//   height: 10%
+//   background-color: grey
+
+//   const Footer = styled.div
+//     position: bottom
+//     width: 100%
+//     height: 10%
+//     background-color: charcoal
+
 export default function PlacesExplorer(props) {
   return (
     <Container>
+      {/* <Header/> */}
       <LeftSide>
         <TopBarControls />
         <PlacesListControls />
@@ -37,6 +51,7 @@ export default function PlacesExplorer(props) {
       <RightSide>
         <MapControls />
       </RightSide>
+      {/* <Footer/> */}
     </Container>
   );
 }

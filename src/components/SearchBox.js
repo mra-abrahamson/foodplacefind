@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const TextInput = styled.input.attrs({
   type: "text",
-  placeholder: "What do you want to eat?"
+  placeholder: "food pantry"
 })`
   flex-shrink: 0;
   width: 100%;

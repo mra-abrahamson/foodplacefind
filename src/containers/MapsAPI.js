@@ -3,9 +3,17 @@
 import React from "react";
 import { GoogleApiWrapper } from "google-maps-react";
 import PlacesExplorer from "../components/PlacesExplorer";
+import Header from ""
+import Footer from "../components/Footer";
+
 
 export function MapsAPI(props) {
-  return <PlacesExplorer />;
+  return (
+    <div>
+      <PlacesExplorer />
+      <Footer />
+    </div>
+  )
 }
 
 export default GoogleApiWrapper({

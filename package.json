@@ -1,11 +1,14 @@
 {
-  "name": "places",
-  "version": "0.1.0",
+  "name": "foodplacefind",
+  "version": "0.1.2",
+  "description": "Food Pantry Locator",
+  "main": "server.js",
   "private": true,
   "dependencies": {
     "ajv": "^6.0.0",
     "google-maps-react": "^2.0.2",
     "jshint": "^2.10.1",
+    "passport-local": "^1.0.0",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "react-redux": "^5.0.7",
