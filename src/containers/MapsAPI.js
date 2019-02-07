@@ -3,13 +3,14 @@
 import React from "react";
 import { GoogleApiWrapper } from "google-maps-react";
 import PlacesExplorer from "../components/PlacesExplorer";
-import Header from ""
-import Footer from "../components/Footer";
+import Header from "../components/Header/index";
+import Footer from "../components/Footer/index";
 
 
 export function MapsAPI(props) {
   return (
     <div>
+      <Header />
       <PlacesExplorer />
       <Footer />
     </div>
